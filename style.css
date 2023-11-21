@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+   * {
+    margin:0;
+    padding: 3px;
+   }
+.container {
+max-width: 800px;
+margin: auto;
+}
+body {
+  font-family: 'Roboto' sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+  font-weight: 600;
+  color: black;
+}
+.avatar {
+  max-width: 850px;
+  color: rgb(164, 0, 0);
+  background: rgb(235, 163, 213);
+  margin-bottom: 15px;
+}
+.card1 {
+  padding: 15px 30px;
+  max-width:850px;
+  color: rgb(164, 0, 0);
+  background: rgb(235, 163, 213);
+  margin-bottom: 15px;
+}
+h3 {
+  text-decoration: underline;
+}
+.card2 {
+  padding: 15px 30px;
+  max-width: 850px;
+  color: rgb(17, 49, 17);
+  background: rgb(170, 170, 218);
+  margin: 0px 0px 15px 0px;
+}
+.card3 {
+  padding: 15px 30px;
+  max-width: 850px;
+  color: rgb(225, 182, 182);
+  background: rgb(237, 241, 217)
+}
+.avatar {
+  width: 200px;
+  border-radius: 34px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+a {
+  color: #333;
+  transition: all .2s;
+}
+a:hover {
+  color: #010101;
+  font-size: 3rem;
+}
+a:active {
+  color: blueviolet;
+  font-size: 2rem;
+}
+a:visited {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+}
+.btn:hover {
+  color: #e11010;
+  opacity: .8;
+}
+.form-group {
+  display:block;
+  font-size: 14px;
+  color: rgb(45, 20, 20);
+}
+.form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: rgb(0, 0, 0);
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
